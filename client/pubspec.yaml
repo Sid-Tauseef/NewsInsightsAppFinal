@@ -1,0 +1,60 @@
+name: client
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# Versioning for your application.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+# Dependencies specify other packages that your package needs in order to work.
+dependencies:
+  flutter:
+    sdk: flutter
+    
+
+  # Update velocity_x to the latest version (4.3.0 as of now)
+  velocity_x: ^4.3.0  
+
+  # Ensure all other dependencies are updated to their latest versions
+  http: ^1.2.3 
+  shared_preferences: ^2.2.2 
+  jwt_decoder: ^2.0.0 
+  flutter_slidable: ^4.0.0 
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  url_launcher: ^6.3.0
+  camera: ^0.11.1 
+  google_mlkit_text_recognition: ^0.14.0
+  google_nav_bar: ^5.0.6
+  lottie: ^2.7.0 # Optional for animations 
+  permission_handler: ^11.3.1
+  image_picker: ^1.1.2
+  intl: ^0.20.1 # Match the version required by velocity_x
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Ensure linting tools are up-to-date
+  flutter_lints: ^5.0.0 
+
+# Flutter-specific configurations
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/image/index1.jpg
+    - assets/image/index2.jpg
+    - assets/image/index3.jpg
+    - assets/image/index4.jpg
+    - assets/image/index5.jpg
+    - assets/image/index6.jpg
+    - assets/image/index7.jpg
+    - assets/image/index8.jpg
+    - assets/image/imageError.jpg

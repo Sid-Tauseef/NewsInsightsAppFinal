@@ -1,0 +1,49 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+android {
+    namespace "com.example.client"
+    compileSdk 34 // Good, matches latest SDK
+
+    ndkVersion flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17 // Java 17
+        targetCompatibility JavaVersion.VERSION_17 // Java 17
+    }
+
+    // Corrected kotlinOptions block
+    kotlinOptions {
+        jvmTarget = "17" // Use assignment syntax, not method call
+    }
+
+    defaultConfig {
+        applicationId "com.example.client"
+        minSdk 21 // Good, supports older devices
+        targetSdk 34 // Matches compileSdk
+        versionCode flutter.versionCode
+        versionName flutter.versionName
+        multiDexEnabled true // Keep if needed
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug // Debug signing for now
+        }
+    }
+
+    dependencies {
+        implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.23"
+        implementation 'androidx.multidex:multidex:2.0.1'
+    }
+}
+
+flutter {
+    source "../.."
+}
