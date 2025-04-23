@@ -12,7 +12,7 @@
 
 # class RecommendationService:
 #     def __init__(self):
-#         self.NEWSAPI_KEY = "abe69354d7704faaa6029c1855cf7162"  # Replace with your actual key
+#         self.NEWSAPI_KEY = "YOUR_API_KEY_FROM_newsapi.org"  # Replace with your actual key
 #         self.NEWSAPI_URL = "https://newsapi.org/v2/everything"
 #         self.tfidf_vectorizer = TfidfVectorizer(stop_words='english', max_features=5000)
 #         self.ENGLISH_STOP_WORDS = set(stopwords.words('english'))
@@ -151,7 +151,7 @@ logger = logging.getLogger(__name__)
 
 class RecommendationService:
     def __init__(self):
-        self.NEWSAPI_KEY = "9d9b2a5b60a24e239b32560c58c00987"  # Replace with your actual key
+        self.NEWSAPI_KEY = "YOUR_API_KEY_FROM_newsapi.org"  # Replace with your actual key
         self.NEWSAPI_URL = "https://newsapi.org/v2/everything"
         self.tfidf_vectorizer = TfidfVectorizer(stop_words='english', max_features=5000)
         self.ENGLISH_STOP_WORDS = set(stopwords.words('english'))
@@ -302,7 +302,7 @@ class RecommendationService:
 
 # class RecommendationService:
 #     def __init__(self):
-#         self.NEWSAPI_KEY = "abe69354d7704faaa6029c1855cf7162"  # Replace with your actual key
+#         self.NEWSAPI_KEY = "YOUR_API_KEY_FROM_newsapi.org"  # Replace with your actual key
 #         self.NEWSAPI_URL = "https://newsapi.org/v2/everything"
 #         self.tfidf_vectorizer = TfidfVectorizer(stop_words='english', max_features=5000)
 #         self.ENGLISH_STOP_WORDS = set(stopwords.words('english'))
