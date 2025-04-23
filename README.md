@@ -126,5 +126,5 @@ This project is licensed under the **MIT License**. See the `LICENSE` file for f
 ## 📬 Contact
 
 **Developer**: Siddiqui Tauseeb  
-📧 Email: [sidtauseef55@gmail.com](mailto:sidtauseef55@gmail.com)  
+📧 Email: [sidtauseef55@gmail.com](mailto:sidtauseef20020204@gmail.com)  
 🔗 GitHub: [https://github.com/Sid-Tauseef](https://github.com/Sid-Tauseef)
