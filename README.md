@@ -5,7 +5,7 @@
 ---
 
 ## 🚀 Features
-
+ 
 - 🔍 **News Recommendations** based on user preferences  
 - 🧠 **Text Summarization** of lengthy news articles using NLP  
 - 🕵️‍♂️ **Fake News Detection** for content credibility  
